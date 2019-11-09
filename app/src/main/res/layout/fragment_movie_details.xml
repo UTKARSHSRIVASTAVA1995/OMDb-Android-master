@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bottomSheetBack"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/sheet_poster"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/sheet_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_toEndOf="@id/sheet_poster"
+        android:gravity="start"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/sheet_release"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/sheet_title"
+        android:layout_below="@id/sheet_title"
+        android:layout_marginTop="6dp"
+        android:gravity="start"
+        android:text="Release"
+        android:textColor="@color/colorAccent2"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/sheet_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/sheet_title"
+        android:layout_below="@id/sheet_release"
+        android:layout_marginTop="6dp"
+        android:gravity="start"
+        android:text="Time"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/sheet_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/sheet_title"
+        android:layout_below="@id/sheet_time"
+        android:layout_marginTop="6dp"
+        android:gravity="start"
+        android:text="Description"
+        android:visibility="gone"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="16sp" />
+
+</RelativeLayout>

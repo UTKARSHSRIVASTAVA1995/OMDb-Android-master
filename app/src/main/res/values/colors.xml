@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#242539</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="windowBackground">#000000</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#2A2C43</color>
+    <color name="colorAccent2">#2A2C43</color>
+    <color name="bottomSheetBack">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grid_background">#383636</color>
+</resources>
