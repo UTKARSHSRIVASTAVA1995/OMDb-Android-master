@@ -1,5 +1,6 @@
 package com.example.test.omdb;
 
+
 import android.app.ProgressDialog;
 import android.app.SearchManager;
 import android.os.Bundle;
@@ -78,7 +79,7 @@ public class HomeActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+
         getMenuInflater().inflate(R.menu.menu_main, menu);
         searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.action_search));
         SearchManager searchManager = (SearchManager) getSystemService(SEARCH_SERVICE);
